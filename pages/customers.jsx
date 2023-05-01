@@ -1,4 +1,5 @@
 import Header from '@/components/Header.jsx'
+import Sidebar from '@/components/Sidebar.jsx'
 import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs'
 import { data } from '../data/data.js'
 

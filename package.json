@@ -10,6 +10,9 @@
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
+  "prisma": {
+    "seed": "node prisma/seeder.js"
+  },
   "dependencies": {
     "chart.js": "^4.3.0",
     "next": "13.3.1",

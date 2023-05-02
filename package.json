@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
+  },
+  "prisma": {
+    "seed": "node prisma/seeder.js"
   },
   "dependencies": {
     "chart.js": "^4.3.0",
@@ -18,8 +23,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
     "prisma": "^4.13.0",
     "tailwindcss": "^3.3.1"
   }

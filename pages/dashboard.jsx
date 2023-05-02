@@ -8,10 +8,10 @@ const dashboard = () => {
   return (
     <>
       <Sidebar>
-        <div className="bg-gray-100 min-h-screen">
+        <div className='bg-gray-100 min-h-screen'>
           <Header />
           <TopCards />
-          <div className="grid p-4 md:grid-cols-3 grid-cols-1 gap-4">
+          <div className='grid p-4 md:grid-cols-3 grid-cols-1 gap-4'>
             <BarChart />
             <RecentOrders />
           </div>

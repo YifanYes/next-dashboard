@@ -119,4 +119,4 @@ export const data = [
     method: 'MasterCard',
     date: '1 Day ago',
   },
-];
+]
